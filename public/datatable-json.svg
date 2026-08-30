@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" rx="24" fill="#080d11"/>
+  <rect width="1200" height="58" rx="24" fill="#151d25"/>
+  <rect y="36" width="1200" height="22" fill="#151d25"/>
+  <circle cx="30" cy="29" r="7" fill="#ff6b63"/><circle cx="53" cy="29" r="7" fill="#f7bd45"/><circle cx="76" cy="29" r="7" fill="#55c982"/>
+  <text x="105" y="36" fill="#dbe4ec" font-family="Segoe UI, sans-serif" font-size="17" font-weight="600">datatable.json</text>
+  <rect x="0" y="58" width="62" height="842" fill="#0c1218"/>
+  <g font-family="Cascadia Code, Consolas, monospace" font-size="18">
+    <g fill="#53616f" text-anchor="end">
+      <text x="45" y="96">1</text><text x="45" y="126">2</text><text x="45" y="156">3</text><text x="45" y="186">4</text><text x="45" y="216">5</text><text x="45" y="246">6</text><text x="45" y="276">7</text><text x="45" y="306">8</text><text x="45" y="336">9</text><text x="45" y="366">10</text><text x="45" y="396">11</text><text x="45" y="426">12</text><text x="45" y="456">13</text><text x="45" y="486">14</text><text x="45" y="516">15</text><text x="45" y="546">16</text><text x="45" y="576">17</text><text x="45" y="606">18</text><text x="45" y="636">19</text><text x="45" y="666">20</text><text x="45" y="696">21</text><text x="45" y="726">22</text><text x="45" y="756">23</text><text x="45" y="786">24</text><text x="45" y="816">25</text><text x="45" y="846">26</text>
+    </g>
+    <g fill="#d4dee7">
+      <text x="82" y="96">{</text>
+      <text x="82" y="126"><tspan fill="#8bd5ff">"defaults"</tspan>: {</text>
+      <text x="110" y="156"><tspan fill="#8bd5ff">"color"</tspan>: <tspan fill="#ffd27a">"original"</tspan>,</text>
+      <text x="110" y="186"><tspan fill="#8bd5ff">"wheel_finish"</tspan>: <tspan fill="#ffd27a">"original"</tspan>,</text>
+      <text x="110" y="216"><tspan fill="#8bd5ff">"environment"</tspan>: <tspan fill="#ffd27a">"desert_road"</tspan></text>
+      <text x="82" y="246">},</text>
+      <text x="82" y="276"><tspan fill="#8bd5ff">"control_options"</tspan>: {</text>
+      <text x="110" y="306"><tspan fill="#8bd5ff">"environment"</tspan>: [<tspan fill="#ffd27a">"desert_road"</tspan>, <tspan fill="#ffd27a">"studio"</tspan>]</text>
+      <text x="82" y="336">},</text>
+      <text x="82" y="366"><tspan fill="#8bd5ff">"animation_actions"</tspan>: [</text>
+      <text x="110" y="396">{</text>
+      <text x="138" y="426"><tspan fill="#8bd5ff">"id"</tspan>: <tspan fill="#ffd27a">"open_doors"</tspan>,</text>
+      <text x="138" y="456"><tspan fill="#8bd5ff">"label"</tspan>: <tspan fill="#ffd27a">"Open doors"</tspan>,</text>
+      <text x="138" y="486"><tspan fill="#8bd5ff">"mode"</tspan>: <tspan fill="#ffd27a">"clip"</tspan>,</text>
+      <text x="138" y="516"><tspan fill="#8bd5ff">"start_frame"</tspan>: <tspan fill="#b6e37d">1560</tspan>,</text>
+      <text x="138" y="546"><tspan fill="#8bd5ff">"end_frame"</tspan>: <tspan fill="#b6e37d">1848</tspan>,</text>
+      <text x="138" y="576"><tspan fill="#8bd5ff">"loop"</tspan>: <tspan fill="#cf9cff">true</tspan></text>
+      <text x="110" y="606">},</text>
+      <text x="110" y="636">{</text>
+      <text x="138" y="666"><tspan fill="#8bd5ff">"id"</tspan>: <tspan fill="#ffd27a">"drive_forward"</tspan>,</text>
+      <text x="138" y="696"><tspan fill="#8bd5ff">"label"</tspan>: <tspan fill="#ffd27a">"Drive forward + wheel spin"</tspan>,</text>
+      <text x="138" y="726"><tspan fill="#8bd5ff">"mode"</tspan>: <tspan fill="#ffd27a">"drive"</tspan>,</text>
+      <text x="138" y="756"><tspan fill="#8bd5ff">"start_frame"</tspan>: <tspan fill="#b6e37d">2200</tspan>, <tspan fill="#8bd5ff">"end_frame"</tspan>: <tspan fill="#b6e37d">2296</tspan>,</text>
+      <text x="138" y="786"><tspan fill="#8bd5ff">"axis"</tspan>: <tspan fill="#ffd27a">"z"</tspan>, <tspan fill="#8bd5ff">"distance"</tspan>: <tspan fill="#b6e37d">350</tspan></text>
+      <text x="110" y="816">}</text>
+      <text x="82" y="846">]</text>
+      <text x="82" y="876">}</text>
+    </g>
+  </g>
+  <g font-family="Segoe UI, sans-serif" font-weight="700" text-anchor="middle">
+    <circle cx="1080" cy="180" r="24" fill="#f5bd45"/><text x="1080" y="187" fill="#101820" font-size="20">1</text>
+    <circle cx="1080" cy="302" r="24" fill="#63c9ee"/><text x="1080" y="309" fill="#101820" font-size="20">2</text>
+    <circle cx="1080" cy="500" r="24" fill="#c59cff"/><text x="1080" y="507" fill="#101820" font-size="20">3</text>
+    <circle cx="1080" cy="735" r="24" fill="#72d6a1"/><text x="1080" y="742" fill="#101820" font-size="20">4</text>
+  </g>
+</svg>
