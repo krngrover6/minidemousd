@@ -1,0 +1,26 @@
+.timeline-slots {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 22px 0;
+}
+
+.timeline-slots > div {
+  display: flex;
+  min-height: 72px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+  border: 1px solid #34414d;
+  border-radius: 11px;
+  background: #111820;
+}
+
+.timeline-slots code { font-size: .72rem; }
+.timeline-slots span { margin-top: 5px; color: #8f9ca7; font-size: .69rem; }
+.timeline-slots > div.active { border-color: #f5bd45; background: #252015; box-shadow: 0 0 0 3px rgba(245,189,69,.08); }
+.timeline-slots > div.active span { color: #f5cf76; }
+
+@media (max-width: 680px) {
+  .timeline-slots { grid-template-columns: 1fr 1fr; }
+}
